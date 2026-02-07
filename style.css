@@ -1,0 +1,35 @@
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.card{
+    color:white;
+    border:2px solid blue;
+    border-radius: 10px;
+    padding:40px;
+    text-align: center;
+}
+
+button{
+    padding: 5px;
+    width:70px;
+    margin: 0px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border:none;
+    color:white;
+}
+#increse{
+    background-color: green;
+}
+#decrese{
+    background-color: red;
+}
+
+#reset{
+    background-color:rgb(224, 74, 74);
+}

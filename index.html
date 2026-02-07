@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Counter</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Counter</h1>
+        <h1 id="counter">0</h1>
+        <div>
+            <button id="increse">+</button>
+            <button id="decrese">-</button>
+            <button id="reset">reset</button>
+        </div>
+    </div>
+</body>
+<script>
+    let counter = document.getElementById("counter");
+    document.getElementById("increse").addEventListener("click",()=>{
+        counter.textContent=Number(counter.textContent)+1;
+    })
+    document.getElementById("decrese").addEventListener("click",()=>{
+        counter.textContent=Number(counter.textContent)-1;
+    })
+    document.getElementById("reset").addEventListener("click",()=>{
+        counter.textContent="0";
+    })
+</script>
+</html>
